@@ -1,0 +1,18 @@
+{
+  "name": "piotr-jaworski/pj_categoryspecial",
+  "description": "PJ category special",
+  "keywords": [],
+  "autoload": {
+    "psr-4": {
+      "PjCategorySpecial\\": "src/"
+    },
+    "classmap": ["pj_categoryspecial.php"],
+    "exclude-from-classmap": []
+  },
+  "config": {
+    "preferred-install": "dist",
+    "prepend-autoloader": false
+  },
+  "homepage": "https://github.com/piotr-jaworski/pj_categoryspecial",
+  "type": "prestashop-module"
+}

@@ -1,0 +1,7 @@
+pj_categoryspecial_toggle_is_special:
+  path: pj-category-special/{categoryId}/toggle-is-special
+  methods: [POST]
+  defaults:
+    _controller: 'PjCategorySpecial\Controller\Admin\CategorySpecialController::toggleIsSpecialAction'
+  requirements:
+    categoryId: \d+
